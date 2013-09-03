@@ -1,0 +1,9 @@
+domain: pasalo.org
+name: Pasalo Project
+
+title: Pasalo Project
+author: Alvaro Lopez Ortega
+email: alvaro@alobbs.com
+
+markdown: redcarpet
+pygments: true
