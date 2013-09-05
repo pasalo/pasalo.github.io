@@ -24,8 +24,8 @@ python df-get-key.py | mail -s "Please, add my key (`whoami`)" alvaro@pasalo.org
 
 ### 3.- Import my key
 ~~~ bash
-wget http://pasalo.org/keys/alo.pasalokey
-python df-add-link.py add --name=alo --url=https://alobbs.org/ /tmp/alo.pasalokey
+wget -O /tmp/alo.pasalokey http://pasalo.org/keys/alo.pasalokey
+python df-links.py add --name=alo --url=https://alobbs.org/ --cert=/tmp/alo.pasalokey
 ~~~
 Now we're connected.
 
@@ -33,7 +33,7 @@ Now we're connected.
 ### 4.- Subscribe a few channels
 ~~~ bash
 python main.py channels --name=alo
-python df-add-link.py subscribe --name=alo --channel=alo.movies.2013
+python df-links.py subscribe --name=alo --channel=alo.movies.2013
 ~~~
 Add as many channels as you want.
 
