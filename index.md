@@ -18,5 +18,6 @@ It's a convenient, scalable, and very secure way of excahenge digital contents w
 ## What is pasalo mean?
 Pásalo is the Spanish word for *pass it along*.
 
-## Documentation
+## Documents
 *  [Ideation](/ideation.html)
+*  [Test 1](/test.html)
