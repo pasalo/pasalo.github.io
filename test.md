@@ -24,8 +24,7 @@ python df-get-key.py | mail -s "Please, add my key (`whoami`)" alvaro@pasalo.org
 
 ### 3.- Import my key
 ~~~ bash
-curl -k -o /tmp/alo.key https://alobbs.org/key
-python df-links.py add --name=alo --url=https://alobbs.org/ --cert=/tmp/alo.key
+python df-links.py add --name=alo --url=https://alobbs.org/ --cert https://alobbs.org/key
 ~~~
 Now we're connected.
 
