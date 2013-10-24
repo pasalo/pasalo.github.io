@@ -7,7 +7,7 @@ title: Pasalo Project
 The main goal of Pasalo Project is ease the exchange of digital
 contents in an automatic and extremely secure way.
 
-Pasalo focueses on:
+Pasalo focuses on:
 
 *  __Security__: The communication between users must be as secure as possible
 *  __Automation__: The transfer and reception of files mustn’t require any intervention
